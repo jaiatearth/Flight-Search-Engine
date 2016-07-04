@@ -1,0 +1,264 @@
+@mixin mobileMode{
+    .pika-single{
+        width: 100%;
+        margin:0 auto;
+        left: 0px !important;
+        top: 120px !important;
+    }
+    .header{
+        &__logo{
+            width: 100%;
+        }
+        &__label, &__flydetails, &__account{
+            display: none;
+        }
+    }
+
+    .content{
+        &__trip-selection{
+            ul{
+                width: 100%;
+                li{
+                    width: 48%;
+                    label{
+                        font-size: 11px;
+                        padding: 25px 0px 25px 67px;
+                        margin: 15px auto;
+                    }
+                }
+            }
+        }
+        &__label{
+            margin: 25px 0px;
+        }
+        &__search{
+            &__count, &__source, &__destination{
+                float: none;
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+            &__source .easy-autocomplete-container li div,  &__destination .easy-autocomplete-container li div{
+                font-size: 14px;
+            }
+            &__source, &__destination{
+                .easy-autocomplete input{
+                    width: 80%;
+                    font-size: 14px;
+                }
+            }
+        }
+        &__date{
+            &__from, &__to{
+                width: 100px;
+                height: 100px;
+                &-month, &-date, &-day{
+                    height: 30px;
+                }
+                &-month, &-day{
+                    font-size: 14px;
+                }
+                &-date{
+                    font-size: 16px;
+                }
+            }
+            #fromdate{
+                height: 100px;
+                width: 100px;
+                margin-left: -132px;
+            }
+            #todate{
+                width: 100px;
+                height: 100px;
+                margin-left: -100px;
+            }
+        }
+        &__searchtrigger {
+            width: 90%;
+            margin: 0 auto;
+        }
+        &__error{
+            margin-bottom: 10px;
+            width: 100%;
+            font-size: 11px;
+        }
+    }
+
+    .result-header{
+        height: 120px;
+        &__citynames{
+            width: 70%;
+            margin-left: 0px;
+            &-source, &-dest{
+                font-size: 13px;
+            }
+            img{
+                height: 15px;
+
+            }
+        }
+        &__edit{
+            width: 29%;
+            font-size: 15px;
+            margin-left: 0px;
+        }
+        &__logo, .iborder, &__date, &__count{
+            display: none;
+        }
+    }
+
+    .searchresult{
+        width: 100%;
+        &__table{
+            margin-top: 0px;
+            &-detailsrow{
+                table{
+                    border: none;
+                }
+                &-logo{
+                    display: none;
+                }
+                &-flightname{
+                    font-size: 14px;
+                }
+                &-timedetails-dtime, &-timedetails-atime{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+@mixin tabletMode{
+    .pika-single{
+        width: 100%;
+        margin:0 auto;
+        left: 0px !important;
+        top: 120px !important;
+    }
+    .header{
+        &__logo{
+            width: 100%;
+        }
+        &__label, &__flydetails, &__account{
+            display: none;
+        }
+    }
+
+    .content{
+        &__trip-selection{
+            ul{
+                width: 100%;
+                li{
+                    width: 48%;
+                    label{
+                        font-size: 11px;
+                        padding: 25px 0px 25px 67px;
+                        margin: 15px auto;
+                    }
+                }
+            }
+        }
+        &__label{
+            margin: 25px 0px;
+        }
+        &__search{
+            width: 100%;
+            &__count-increase, &__count-decrease{
+                font-size: 11px;
+                width: 20px;
+                height: 20px;
+            }
+            &__source, &__destination{
+                .easy-autocomplete input{
+                    width: 83%;
+                    font-size: 16px;
+                }
+            }
+            &__source .easy-autocomplete-container li div,  &__destination .easy-autocomplete-container li div{
+                font-size: 15px;
+            }
+        }
+        &__date{
+            margin-bottom: 30px;
+            &__from, &__to{
+                width: 100px;
+                height: 100px;
+                &-month, &-date, &-day{
+                    height: 30px;
+                }
+                &-month, &-day{
+                    font-size: 14px;
+                }
+                &-date{
+                    font-size: 16px;
+                }
+            }
+            #fromdate{
+                height: 100px;
+                width: 100px;
+                margin-left: -132px;
+            }
+            #todate{
+                width: 100px;
+                height: 100px;
+                margin-left: -100px;
+            }
+        }
+        &__searchtrigger {
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+        &__error{
+            margin-bottom: 20px;
+            width: 90%;
+            font-size: 11px;
+        }
+    }
+
+    .result-header{
+        height: 120px;
+        &__citynames{
+            width: 70%;
+            margin-left: 0px;
+            &-source, &-dest{
+                font-size: 13px;
+            }
+            img{
+                height: 15px;
+
+            }
+        }
+        &__edit{
+            width: 29%;
+            font-size: 15px;
+            margin-left: 0px;
+        }
+        &__logo, .iborder, &__date, &__count{
+            display: none;
+        }
+    }
+
+    .searchresult{
+        width: 100%;
+        &__table{
+            margin-top: 0px;
+            &-detailsrow{
+                table{
+                    border: none;
+                }
+                &-flightname{
+                    font-size: 16px;
+                }
+                &-timedetails-dtime, &-timedetails-atime{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+}

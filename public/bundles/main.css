@@ -834,7 +834,7 @@ body {
   margin-right: 10px;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-device-width: 319px) and (max-device-width: 700px) {
   .pika-single {
     width: 100%;
     margin: 0 auto;
@@ -853,10 +853,10 @@ body {
     width: 100%;
   }
   .content__trip-selection ul li {
-    width: 45%;
+    width: 48%;
   }
   .content__trip-selection ul li label {
-    font-size: 13px;
+    font-size: 11px;
     padding: 25px 0px 25px 67px;
     margin: 15px auto;
   }
@@ -869,8 +869,12 @@ body {
     margin: 0 auto;
     margin-bottom: 20px;
   }
+  .content__search__source .easy-autocomplete-container li div, .content__search__destination .easy-autocomplete-container li div {
+    font-size: 14px;
+  }
   .content__search__source .easy-autocomplete input, .content__search__destination .easy-autocomplete input {
     width: 80%;
+    font-size: 14px;
   }
   .content__date__from, .content__date__to {
     width: 100px;
@@ -897,7 +901,7 @@ body {
   }
   .content__searchtrigger {
     width: 90%;
-    margin: 10px 0px 10px 0px;
+    margin: 0 auto;
   }
   .content__error {
     margin-bottom: 10px;
@@ -940,6 +944,363 @@ body {
     display: none;
   }
   .searchresult__table-detailsrow-flightname {
+    font-size: 14px;
+  }
+  .searchresult__table-detailsrow-timedetails-dtime, .searchresult__table-detailsrow-timedetails-atime {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .pika-single {
+    width: 100%;
+    margin: 0 auto;
+    left: 0px !important;
+    top: 120px !important;
+  }
+
+  .header__logo {
+    width: 100%;
+  }
+  .header__label, .header__flydetails, .header__account {
+    display: none;
+  }
+
+  .content__trip-selection ul {
+    width: 100%;
+  }
+  .content__trip-selection ul li {
+    width: 48%;
+  }
+  .content__trip-selection ul li label {
+    font-size: 11px;
+    padding: 25px 0px 25px 67px;
+    margin: 15px auto;
+  }
+  .content__label {
+    margin: 25px 0px;
+  }
+  .content__search__count, .content__search__source, .content__search__destination {
+    float: none;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .content__search__source .easy-autocomplete-container li div, .content__search__destination .easy-autocomplete-container li div {
+    font-size: 14px;
+  }
+  .content__search__source .easy-autocomplete input, .content__search__destination .easy-autocomplete input {
+    width: 80%;
+    font-size: 14px;
+  }
+  .content__date__from, .content__date__to {
+    width: 100px;
+    height: 100px;
+  }
+  .content__date__from-month, .content__date__from-date, .content__date__from-day, .content__date__to-month, .content__date__to-date, .content__date__to-day {
+    height: 30px;
+  }
+  .content__date__from-month, .content__date__from-day, .content__date__to-month, .content__date__to-day {
+    font-size: 14px;
+  }
+  .content__date__from-date, .content__date__to-date {
+    font-size: 16px;
+  }
+  .content__date #fromdate {
+    height: 100px;
+    width: 100px;
+    margin-left: -132px;
+  }
+  .content__date #todate {
+    width: 100px;
+    height: 100px;
+    margin-left: -100px;
+  }
+  .content__searchtrigger {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .content__error {
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 11px;
+  }
+
+  .result-header {
+    height: 120px;
+  }
+  .result-header__citynames {
+    width: 70%;
+    margin-left: 0px;
+  }
+  .result-header__citynames-source, .result-header__citynames-dest {
+    font-size: 13px;
+  }
+  .result-header__citynames img {
+    height: 15px;
+  }
+  .result-header__edit {
+    width: 29%;
     font-size: 15px;
+    margin-left: 0px;
+  }
+  .result-header__logo, .result-header .iborder, .result-header__date, .result-header__count {
+    display: none;
+  }
+
+  .searchresult {
+    width: 100%;
+  }
+  .searchresult__table {
+    margin-top: 0px;
+  }
+  .searchresult__table-detailsrow table {
+    border: none;
+  }
+  .searchresult__table-detailsrow-logo {
+    display: none;
+  }
+  .searchresult__table-detailsrow-flightname {
+    font-size: 14px;
+  }
+  .searchresult__table-detailsrow-timedetails-dtime, .searchresult__table-detailsrow-timedetails-atime {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-device-width: 701px) and (max-device-width: 1250px) {
+  .pika-single {
+    width: 100%;
+    margin: 0 auto;
+    left: 0px !important;
+    top: 120px !important;
+  }
+
+  .header__logo {
+    width: 100%;
+  }
+  .header__label, .header__flydetails, .header__account {
+    display: none;
+  }
+
+  .content__trip-selection ul {
+    width: 100%;
+  }
+  .content__trip-selection ul li {
+    width: 48%;
+  }
+  .content__trip-selection ul li label {
+    font-size: 11px;
+    padding: 25px 0px 25px 67px;
+    margin: 15px auto;
+  }
+  .content__label {
+    margin: 25px 0px;
+  }
+  .content__search {
+    width: 100%;
+  }
+  .content__search__count-increase, .content__search__count-decrease {
+    font-size: 11px;
+    width: 20px;
+    height: 20px;
+  }
+  .content__search__source .easy-autocomplete input, .content__search__destination .easy-autocomplete input {
+    width: 83%;
+    font-size: 16px;
+  }
+  .content__search__source .easy-autocomplete-container li div, .content__search__destination .easy-autocomplete-container li div {
+    font-size: 15px;
+  }
+  .content__date {
+    margin-bottom: 30px;
+  }
+  .content__date__from, .content__date__to {
+    width: 100px;
+    height: 100px;
+  }
+  .content__date__from-month, .content__date__from-date, .content__date__from-day, .content__date__to-month, .content__date__to-date, .content__date__to-day {
+    height: 30px;
+  }
+  .content__date__from-month, .content__date__from-day, .content__date__to-month, .content__date__to-day {
+    font-size: 14px;
+  }
+  .content__date__from-date, .content__date__to-date {
+    font-size: 16px;
+  }
+  .content__date #fromdate {
+    height: 100px;
+    width: 100px;
+    margin-left: -132px;
+  }
+  .content__date #todate {
+    width: 100px;
+    height: 100px;
+    margin-left: -100px;
+  }
+  .content__searchtrigger {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .content__error {
+    margin-bottom: 20px;
+    width: 90%;
+    font-size: 11px;
+  }
+
+  .result-header {
+    height: 120px;
+  }
+  .result-header__citynames {
+    width: 70%;
+    margin-left: 0px;
+  }
+  .result-header__citynames-source, .result-header__citynames-dest {
+    font-size: 13px;
+  }
+  .result-header__citynames img {
+    height: 15px;
+  }
+  .result-header__edit {
+    width: 29%;
+    font-size: 15px;
+    margin-left: 0px;
+  }
+  .result-header__logo, .result-header .iborder, .result-header__date, .result-header__count {
+    display: none;
+  }
+
+  .searchresult {
+    width: 100%;
+  }
+  .searchresult__table {
+    margin-top: 0px;
+  }
+  .searchresult__table-detailsrow table {
+    border: none;
+  }
+  .searchresult__table-detailsrow-flightname {
+    font-size: 16px;
+  }
+  .searchresult__table-detailsrow-timedetails-dtime, .searchresult__table-detailsrow-timedetails-atime {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .pika-single {
+    width: 100%;
+    margin: 0 auto;
+    left: 0px !important;
+    top: 120px !important;
+  }
+
+  .header__logo {
+    width: 100%;
+  }
+  .header__label, .header__flydetails, .header__account {
+    display: none;
+  }
+
+  .content__trip-selection ul {
+    width: 100%;
+  }
+  .content__trip-selection ul li {
+    width: 48%;
+  }
+  .content__trip-selection ul li label {
+    font-size: 11px;
+    padding: 25px 0px 25px 67px;
+    margin: 15px auto;
+  }
+  .content__label {
+    margin: 25px 0px;
+  }
+  .content__search {
+    width: 100%;
+  }
+  .content__search__count-increase, .content__search__count-decrease {
+    font-size: 11px;
+    width: 20px;
+    height: 20px;
+  }
+  .content__search__source .easy-autocomplete input, .content__search__destination .easy-autocomplete input {
+    width: 83%;
+    font-size: 16px;
+  }
+  .content__search__source .easy-autocomplete-container li div, .content__search__destination .easy-autocomplete-container li div {
+    font-size: 15px;
+  }
+  .content__date {
+    margin-bottom: 30px;
+  }
+  .content__date__from, .content__date__to {
+    width: 100px;
+    height: 100px;
+  }
+  .content__date__from-month, .content__date__from-date, .content__date__from-day, .content__date__to-month, .content__date__to-date, .content__date__to-day {
+    height: 30px;
+  }
+  .content__date__from-month, .content__date__from-day, .content__date__to-month, .content__date__to-day {
+    font-size: 14px;
+  }
+  .content__date__from-date, .content__date__to-date {
+    font-size: 16px;
+  }
+  .content__date #fromdate {
+    height: 100px;
+    width: 100px;
+    margin-left: -132px;
+  }
+  .content__date #todate {
+    width: 100px;
+    height: 100px;
+    margin-left: -100px;
+  }
+  .content__searchtrigger {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .content__error {
+    margin-bottom: 20px;
+    width: 90%;
+    font-size: 11px;
+  }
+
+  .result-header {
+    height: 120px;
+  }
+  .result-header__citynames {
+    width: 70%;
+    margin-left: 0px;
+  }
+  .result-header__citynames-source, .result-header__citynames-dest {
+    font-size: 13px;
+  }
+  .result-header__citynames img {
+    height: 15px;
+  }
+  .result-header__edit {
+    width: 29%;
+    font-size: 15px;
+    margin-left: 0px;
+  }
+  .result-header__logo, .result-header .iborder, .result-header__date, .result-header__count {
+    display: none;
+  }
+
+  .searchresult {
+    width: 100%;
+  }
+  .searchresult__table {
+    margin-top: 0px;
+  }
+  .searchresult__table-detailsrow table {
+    border: none;
+  }
+  .searchresult__table-detailsrow-flightname {
+    font-size: 16px;
+  }
+  .searchresult__table-detailsrow-timedetails-dtime, .searchresult__table-detailsrow-timedetails-atime {
+    font-size: 14px;
   }
 }
