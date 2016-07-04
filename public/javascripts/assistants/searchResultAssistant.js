@@ -14,10 +14,30 @@ function initSearch(){
     $(".searchresult").removeClass("hide");
     toHome();
 
+    var slider = document.getElementById("pslider");
+
+    noUiSlider.create(slider, {
+        start: [1000, 5000],
+        connect: true,
+        range: {
+            'min': 1000,
+            'max': 10000
+        },
+        pips: { // Show a scale with the slider
+            mode: 'steps',
+            density: 10
+        }
+    });
+
+
+    //slider.noUiSlider.on('update', function( values, handle ) {
+    //        valueInput.value = values[handle];
+    //        console.info("updated", values[handle]);
+    //});
+
     $.ajax({
         url : "twoway",
         success  :function(resultData){
-
             //var template = Handlebars.compile('#result-template');
             //var html = template(resultData);
             //console.info("samplehtml",html);
