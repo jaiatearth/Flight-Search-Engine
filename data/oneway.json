@@ -6,7 +6,9 @@
 		"nonstop": 0,
 		"stoppingplaces": null,
 		"cost": "1500 INR" ,
-		"fid" : "f1"
+		"fid" : "f1",
+		"fromcity": "Chennai Airport",
+		"tocity": "Sambre Airport"
 	}, {
 		"flightname": "Flight 6E 236",
 		"dtime": "07:20",
@@ -17,7 +19,9 @@
 			"Full name": "Kochi, IN - Kochi Airport (MAA)"
 		}],
 		"cost": "2500 INR",
-		"fid" : "f2"
+		"fid" : "f2",
+		"fromcity": "Chennai Airport",
+		"tocity": "Sambre Airport"
 	}, {
 		"flightname": "Flight 6E 237",
 		"dtime": "09:20",
@@ -25,7 +29,9 @@
 		"nonstop": 0,
 		"stoppingplaces": null,
 		"cost": "7500 INR",
-		"fid" : "f3"
+		"fid" : "f3",
+		"fromcity" :  "Car Nicobar Airport",
+		"tocity" : "Chennai Airport"
 	}, {
 		"flightname": "Flight 6E 239",
 		"dtime": "10:20",
@@ -33,7 +39,9 @@
 		"nonstop": 0,
 		"stoppingplaces": null,
 		"cost": "1500 INR" ,
-		"fid" : "f4"
+		"fid" : "f4",
+		"fromcity": "Chennai Airport",
+		"tocity": "Sambre Airport"
 	}, {
 		"flightname": "Flight 6E 235",
 		"dtime": "06:20",
@@ -41,7 +49,20 @@
 		"nonstop": 0,
 		"stoppingplaces": null,
 		"cost": "1500 INR" ,
-		"fid" : "f5"
+		"fid" : "f5",
+		"fromcity": "Chennai Airport",
+		"tocity": "Sambre Airport"
+	},
+	{
+		"flightname": "Flight 6E 240",
+		"dtime": "11:20",
+		"atime": "01:30",
+		"nonstop": 0,
+		"stoppingplaces": null,
+		"cost": "7500 INR",
+		"fid" : "f6",
+		"fromcity" :  "Car Nicobar Airport",
+		"tocity" : "Chennai Airport"
 	}]
 
 }]
