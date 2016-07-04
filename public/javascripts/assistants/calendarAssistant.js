@@ -34,8 +34,8 @@ function   applyCalendarValues(cin_value, cout_value) {
 }
 
 function triggerDatePicker(){
-    var picker1 = new Pikaday({ field: $('#fromdate')[0] });
-    var picker2 = new Pikaday({ field: $('#todate')[0] });
+    var picker1 = new Pikaday({ field: $('#fromdate')[0], position: 'bottom  left' });
+    var picker2 = new Pikaday({ field: $('#todate')[0], position: 'bottom left' });
     var dateToday = new Date();
     dateToday = dateToday.toString();
     var dateArray = dateToday.split(" ");
