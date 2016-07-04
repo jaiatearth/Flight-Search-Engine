@@ -1,0 +1,88 @@
+.searchresult{
+    width: 80%;
+    margin: 0 auto;
+    &__priceslider{
+
+    }
+    &__table{
+        width: 100%;
+        margin-top: 40px;
+
+        &-detailsrow{
+            table{
+                border: 1px solid $bg-primary-color;
+                border-collapse: collapse;
+            }
+            td{
+                height: 100px;
+            }
+            tr:nth-child(odd) {background: #F7F7F7}
+            tr:nth-child(even) {background: #FFFFFF}
+            &-flightname{
+                padding: 14px 20px;
+                color: $special-label-color;
+                font-size: 19px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+            &-timedetails{
+                padding: 14px 20px;
+                margin-top: -20px;
+                &-atime, &-dtime{
+                    display: inline-block;
+                    font-size: 15px;
+                    color: #192B33;
+                    margin-right: 12px;
+                    font-weight: normal;
+                }
+                &-nonstop{
+                    display: inline-block;
+                    font-size: 10px;
+                    color: $fg-primary-color;
+                    margin-right: 12px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    i{
+                        color: $bg-primary-color;
+                        margin-top: 2px;
+                        display: inline-block;
+                        font-weight: 600;
+                        font-size: 12px;
+                        font-style: normal;
+
+                    }
+
+                }
+            }
+            &-logo{
+                margin-top:3px;
+            }
+
+            &-pricedetails{
+                text-align: right;
+                margin-right: 5px;
+                &-price{
+                    padding: 8px 20px;
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: $price-color;
+                }
+                &-proceed {
+                    padding: 8px 20px;
+                    height: 30px;
+                    span {
+                        background: $bg-primary-color;
+                        font-weight: 300;
+                        color: $fg-primary-color;
+                        font-size: 17px;
+                        padding: 8px 10px;
+                        text-transform: uppercase;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+
+    }
+}

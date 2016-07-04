@@ -1,0 +1,148 @@
+.hide{
+    display: none !important;
+}
+
+.show{
+    display: block;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
+.block-center {
+    margin: 0 auto;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+.iborder{
+    height:inherit;
+    border: 1px solid #e8c830;
+    margin-top: -2px;
+}
+.hover:hover {
+    text-shadow: 0 0 3px #877005;
+}
+.error{
+    color: $price-color;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+@mixin box {
+    border: 1px solid $bg-primary-color;
+    height: 55px;
+    outline: 1px solid #ADADAD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 4px #B9B9B9;
+}
+@mixin autocomplete{
+    .easy-autocomplete{
+        width: 100% !important;
+        input{
+            cursor: pointer;
+            width: 90%;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            font-size: 20px;
+            font-weight: 300;
+            font-family: "Lato";
+            text-align: center;
+            color: $black;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+        }
+        &-container{
+            li{
+                height: 50px;
+                display: flex;
+                align-items: center;
+                border-color: $bg-primary-color;
+                box-shadow: 2px 2px 4px #B9B9B9;
+                div{
+                    font-weight: 300;
+                    font-size: 17px;
+                }
+            }
+            li.selected{
+                background: #F3DB74;
+            }
+        }
+    }
+}
+@mixin tinylabel{
+    display: inline-block;
+    position: relative;
+    font-size: 9px;
+    top: -17px;
+    left: 10px;
+    z-index: 100;
+    font-weight: 400;
+    color: #c4c4c4;
+    width: auto;
+}
+@mixin  placeholder {
+    ::-webkit-input-placeholder {
+        color: #AAAAAA;
+        font-weight: 300;
+        font-family: "Lato";
+    }
+
+    :-moz-placeholder {
+        color: #AAAAAA;
+        font-weight: 300;
+        font-family: "Lato";
+    }
+
+    ::-moz-placeholder {
+        color: #AAAAAA;
+        font-weight: 300;
+        font-family: "Lato";
+    }
+
+    :-ms-input-placeholder {
+        color: #AAAAAA;
+        font-weight: 300;
+        font-family: "Lato";
+    }
+}
+
+@mixin calendar{
+    &-month, &-date, &-day{
+        width: inherit;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 1px;
+        font-weight: 300;
+        font-size: 20px;
+    }
+    &-month{
+        background-color: $bg-primary-color;
+    }
+    &-date{
+        font-size: 30px;
+    }
+    &-day, &-date{
+        background-color: #FFFDF4;
+    }
+}

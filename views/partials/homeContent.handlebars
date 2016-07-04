@@ -1,0 +1,69 @@
+<div class="content">
+
+    <!--tri selection block-->
+    <div class="content__trip-selection">
+        <ul>
+
+            <li>
+                <input type="radio" id="two-way" name="radio-selector" checked>
+                <label for="two-way">Round Trip</label>
+                <div class="check">
+                </div>
+            </li>
+            <li>
+                <input type="radio" id="one-way" name="radio-selector">
+                <label for="one-way">One Way</label>
+                <div class="check"></div>
+            </li>
+
+        </ul>
+    </div>
+
+    <!--static label -->
+    <div class="content__label">
+        Where you want to fly ?
+    </div>
+
+    <!-- search inputs block-->
+    <div class="content__search">
+        <div class="content__search__count pull-left">
+            <input type='button' value='-' class='content__search__count-decrease decrease' field='count' />
+            <input type='text' name='count' value='1' readonly class='content__search__count-count count' />
+            <input type='button' value='+' class='content__search__count-increase increase' field='count' />
+        </div>
+
+        <div class="content__search__source pull-left">
+            <span class="label">From</span>
+            <input id="source" type="text" placeholder="City name" />
+        </div>
+
+        <div class="content__search__destination pull-left">
+            <span class="label">To</span>
+            <input id="destination" type="text" placeholder="City name"/>
+        </div>
+    </div>
+
+    <!-- Date input block-->
+
+    <div class="content__date">
+        <div class="content__date__from pull-left from">
+            <div class="content__date__from-month month">OCTOBER</div>
+            <div class="content__date__from-date date">12</div>
+            <div class="content__date__from-day day">Thursday</div>
+        </div>
+        <div class="pull-left" id="fromdate"></div>
+
+        <div class="content__date__img fromtoimg"><img src="images/fromto.svg" height="30"></div>
+        <div class="content__date__to pull-left to">
+            <div class="content__date__from-month month">OCTOBER</div>
+            <div class="content__date__from-date date">12</div>
+            <div class="content__date__from-day day">Thursday</div>
+        </div>
+        <div id="todate" class="pull-left"></div>
+    </div>
+
+    <!-Search trigger block -->
+    <div class="content__searchtrigger search-action">Search flights</div>
+    <div class="content__error error hide">Sorry, I Cannot proceed search, incomplete data!!</div>
+
+</div>

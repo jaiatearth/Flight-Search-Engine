@@ -1,0 +1,14 @@
+
+// Import pages
+body{
+    font-family: 'Lato';
+    margin: 0px !important;
+}
+@import './common/variables';
+@import './common/mixins';
+@import './components/header';
+@import './components/homeContent';
+@import './3rdparty/pikaday';
+@import './components/searchResult';
+@import './components/resultHeader';
+

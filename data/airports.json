@@ -1,0 +1,528 @@
+[{
+        "cityname": "Singerbhil Airport",
+        "code": "IXA"
+    },
+    {
+        "cityname": "Agatti Island Airport",
+        "code": "AGX"
+    },
+    {
+        "cityname": "Kheria Airport",
+        "code": "AGR"
+    },
+    {
+        "cityname": "Ahmedabad Airport",
+        "code": "AMD"
+    },
+    {
+        "cityname": "Aizawl Airport",
+        "code": "AJL"
+    },
+    {
+        "cityname": "Akola Airport",
+        "code": "AKD"
+    },
+    {
+        "cityname": "Bamrauli Airport",
+        "code": "IXD"
+    },
+    {
+        "cityname": "Along Airport",
+        "code": "IXV"
+    },
+    {
+        "cityname": "Raja Sansi Airport",
+        "code": "ATQ"
+    },
+    {
+        "cityname": "Chikkalthana Airport",
+        "code": "IXU"
+    },
+    {
+        "cityname": "Bagdogra Airport",
+        "code": "IXB"
+    },
+    {
+        "cityname": "Balurghat Airport",
+        "code": "RGH"
+    },
+    {
+        "cityname": "Hindustan Airport",
+        "code": "BLR"
+    },
+    {
+        "cityname": "Bareli Airport",
+        "code": "BEK"
+    },
+    {
+        "cityname": "Sambre Airport",
+        "code": "IXG"
+    },
+    {
+        "cityname": "Bellary Airport",
+        "code": "BEP"
+    },
+    {
+        "cityname": "Bhatinda Airport",
+        "code": "BUP"
+    },
+    {
+        "cityname": "Bhavnagar Airport",
+        "code": "BHU"
+    },
+    {
+        "cityname": "Bhopal Airport",
+        "code": "BHO"
+    },
+    {
+        "cityname": "Bhubaneswar Airport",
+        "code": "BBI"
+    },
+    {
+        "cityname": "Rudra Mata Airport",
+        "code": "BHJ"
+    },
+    {
+        "cityname": "Bikaner Airport",
+        "code": "BKB"
+    },
+    {
+        "cityname": "Bilaspur Airport",
+        "code": "PAB"
+    },
+    {
+        "cityname": "Chhatrapati Shivaji Airport",
+        "code": "BOM"
+    },
+    {
+        "cityname": "Netaji Subhas Chandra Airport",
+        "code": "CCU"
+    },
+    {
+        "cityname": "Car Nicobar Airport",
+        "code": "CBD"
+    },
+    {
+        "cityname": "Chandigarh Airport",
+        "code": "IXC"
+    },
+    {
+        "cityname": "Peelamedu Airport",
+        "code": "CJB"
+    },
+    {
+        "cityname": "Cooch Behar Airport",
+        "code": "COH"
+    },
+    {
+        "cityname": "Cuddapah Airport",
+        "code": "CDP"
+    },
+    {
+        "cityname": "Daman Airport",
+        "code": "NMB"
+    },
+    {
+        "cityname": "Daparizo Airport",
+        "code": "DAE"
+    },
+    {
+        "cityname": "Darjeeling Airport",
+        "code": "DAI"
+    },
+    {
+        "cityname": "Dehra Dun Airport",
+        "code": "DED"
+    },
+    {
+        "cityname": "Indira Gandhi International Airport",
+        "code": "DEL"
+    },
+    {
+        "cityname": "Deparizo Airport",
+        "code": "DEP"
+    },
+    {
+        "cityname": "Dhanbad Airport",
+        "code": "DBD"
+    },
+    {
+        "cityname": "Gaggal Airport",
+        "code": "DHM"
+    },
+    {
+        "cityname": "Chabua Airport",
+        "code": "DIB"
+    },
+    {
+        "cityname": "Dimapur Airport",
+        "code": "DMU"
+    },
+    {
+        "cityname": "Diu Airport",
+        "code": "DIU"
+    },
+    {
+        "cityname": "Gaya Airport",
+        "code": "GAY"
+    },
+    {
+        "cityname": "Dabolim Airport",
+        "code": "GOI"
+    },
+    {
+        "cityname": "Gorakhpur Airport",
+        "code": "GOP"
+    },
+    {
+        "cityname": "Guna Airport",
+        "code": "GUX"
+    },
+    {
+        "cityname": "Borjhar Airport",
+        "code": "GAU"
+    },
+    {
+        "cityname": "Gwalior Airport",
+        "code": "GWL"
+    },
+    {
+        "cityname": "Hissar Airport",
+        "code": "HSS"
+    },
+    {
+        "cityname": "Hubli Airport",
+        "code": "HBX"
+    },
+    {
+        "cityname": "Begumpet Airport",
+        "code": "HYD"
+    },
+    {
+        "cityname": "Municipal Airport",
+        "code": "IMF"
+    },
+    {
+        "cityname": "Indore Airport",
+        "code": "IDR"
+    },
+    {
+        "cityname": "Jabalpur Airport",
+        "code": "JLR"
+    },
+    {
+        "cityname": "Jagdalpur Airport",
+        "code": "JGB"
+    },
+    {
+        "cityname": "Sanganeer Airport",
+        "code": "JAI"
+    },
+    {
+        "cityname": "Jaisalmer Airport",
+        "code": "JSA"
+    },
+    {
+        "cityname": "Satwari Airport",
+        "code": "IXJ"
+    },
+    {
+        "cityname": "Govardhanpur Airport",
+        "code": "JGA"
+    },
+    {
+        "cityname": "Sonari Airport",
+        "code": "IXW"
+    },
+    {
+        "cityname": "Jeypore Airport",
+        "code": "PYB"
+    },
+    {
+        "cityname": "Jodhpur Airport",
+        "code": "JDH"
+    },
+    {
+        "cityname": "Rowriah Airport",
+        "code": "JRH"
+    },
+    {
+        "cityname": "Kailashahar Airport",
+        "code": "IXH"
+    },
+    {
+        "cityname": "Kamalpur Airport",
+        "code": "IXQ"
+    },
+    {
+        "cityname": "Kandla Airport",
+        "code": "IXY"
+    },
+    {
+        "cityname": "Kanpur Airport",
+        "code": "KNU"
+    },
+    {
+        "cityname": "Keshod Airport",
+        "code": "IXK"
+    },
+    {
+        "cityname": "Khajuraho Airport",
+        "code": "HJR"
+    },
+    {
+        "cityname": "Khowai Airport",
+        "code": "IXN"
+    },
+    {
+        "cityname": "Kochi Airport",
+        "code": "COK"
+    },
+    {
+        "cityname": "Kolhapur Airport",
+        "code": "KLH"
+    },
+    {
+        "cityname": "Kota Airport",
+        "code": "KTU"
+    },
+    {
+        "cityname": "Calicut International Airport",
+        "code": "CCJ"
+    },
+    {
+        "cityname": "Bhuntar Airport",
+        "code": "KUU"
+    },
+    {
+        "cityname": "Leh Airport",
+        "code": "IXL"
+    },
+    {
+        "cityname": "Lilabari Airport",
+        "code": "IXI"
+    },
+    {
+        "cityname": "Amausi Airport",
+        "code": "LKO"
+    },
+    {
+        "cityname": "Ludhiana Airport",
+        "code": "LUH"
+    },
+    {
+        "cityname": "Chennai Airport",
+        "code": "MAA"
+    },
+    {
+        "cityname": "Madurai Airport",
+        "code": "IXM"
+    },
+    {
+        "cityname": "Malda Airport",
+        "code": "LDA"
+    },
+    {
+        "cityname": "Bajpe Airport",
+        "code": "IXE"
+    },
+    {
+        "cityname": "Mohanbari Airport",
+        "code": "MOH"
+    },
+    {
+        "cityname": "Muzaffarnagar Airport",
+        "code": "MZA"
+    },
+    {
+        "cityname": "Muzaffarpur Airport",
+        "code": "MZU"
+    },
+    {
+        "cityname": "Mysore Airport",
+        "code": "MYQ"
+    },
+    {
+        "cityname": "Sonegaon Airport",
+        "code": "NAG"
+    },
+    {
+        "cityname": "Nanded Airport",
+        "code": "NDC"
+    },
+    {
+        "cityname": "Gandhinagar Airport",
+        "code": "ISK"
+    },
+    {
+        "cityname": "Neyveli Airport",
+        "code": "NVY"
+    },
+    {
+        "cityname": "Osmanabad Airport",
+        "code": "OMN"
+    },
+    {
+        "cityname": "Pantnagar Airport",
+        "code": "PGH"
+    },
+    {
+        "cityname": "Pasighat Airport",
+        "code": "IXT"
+    },
+    {
+        "cityname": "Pathankot Airport",
+        "code": "IXP"
+    },
+    {
+        "cityname": "Patna Airport",
+        "code": "PAT"
+    },
+    {
+        "cityname": "Pondicherry Airport",
+        "code": "PNY"
+    },
+    {
+        "cityname": "Porbandar Airport",
+        "code": "PBD"
+    },
+    {
+        "cityname": "Port Blair Airport",
+        "code": "IXZ"
+    },
+    {
+        "cityname": "Lohegaon Airport",
+        "code": "PNQ"
+    },
+    {
+        "cityname": "Puttaprathe Airport",
+        "code": "PUT"
+    },
+    {
+        "cityname": "Raipur Airport",
+        "code": "RPR"
+    },
+    {
+        "cityname": "Rajahmundry Airport",
+        "code": "RJA"
+    },
+    {
+        "cityname": "Civil Airport",
+        "code": "RAJ"
+    },
+    {
+        "cityname": "Rajouri Airport",
+        "code": "RJI"
+    },
+    {
+        "cityname": "Ramagundam Airport",
+        "code": "RMD"
+    },
+    {
+        "cityname": "Ranchi Airport",
+        "code": "IXR"
+    },
+    {
+        "cityname": "Ratnagiri Airport",
+        "code": "RTC"
+    },
+    {
+        "cityname": "Rewa Airport",
+        "code": "REW"
+    },
+    {
+        "cityname": "Rourkela Airport",
+        "code": "RRK"
+    },
+    {
+        "cityname": "Rupsi Airport",
+        "code": "RUP"
+    },
+    {
+        "cityname": "Salem Airport",
+        "code": "SXV"
+    },
+    {
+        "cityname": "Satna Airport",
+        "code": "TNI"
+    },
+    {
+        "cityname": "Shillong Airport",
+        "code": "SHL"
+    },
+    {
+        "cityname": "Sholapur Airport",
+        "code": "SSE"
+    },
+    {
+        "cityname": "Kumbhirgram Airport",
+        "code": "IXS"
+    },
+    {
+        "cityname": "Simla Airport",
+        "code": "SLV"
+    },
+    {
+        "cityname": "Srinagar Airport",
+        "code": "SXR"
+    },
+    {
+        "cityname": "Surat Airport",
+        "code": "STV"
+    },
+    {
+        "cityname": "Salonibari Airport",
+        "code": "TEZ"
+    },
+    {
+        "cityname": "Tezu Airport",
+        "code": "TEI"
+    },
+    {
+        "cityname": "Thanjavur Airport",
+        "code": "TJV"
+    },
+    {
+        "cityname": "Thiruvananthapuram International Airport",
+        "code": "TRV"
+    },
+    {
+        "cityname": "Civil Airport",
+        "code": "TRZ"
+    },
+    {
+        "cityname": "Tirupati Airport",
+        "code": "TIR"
+    },
+    {
+        "cityname": "Tuticorin Airport",
+        "code": "TCR"
+    },
+    {
+        "cityname": "Dabok Airport",
+        "code": "UDR"
+    },
+    {
+        "cityname": "Vadodara Airport",
+        "code": "BDQ"
+    },
+    {
+        "cityname": "Varanasi Airport",
+        "code": "VNS"
+    },
+    {
+        "cityname": "Vijayawada Airport",
+        "code": "VGA"
+    },
+    {
+        "cityname": "Visakhapatnam Airport",
+        "code": "VTZ"
+    },
+    {
+        "cityname": "Warangal Airport",
+        "code": "WGC"
+    },
+    {
+        "cityname": "Zero Airport",
+        "code": "ZER"
+    }]

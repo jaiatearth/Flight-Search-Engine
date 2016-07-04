@@ -1,0 +1,48 @@
+[{
+		"flightdetailsone": [{
+		"flightname": "Flight 6E 233",
+		"dtime": "06:20",
+		"atime": "08:30",
+		"nonstop": 0,
+		"stoppingplaces": null,
+		"cost": "1500 INR" ,
+		"fid" : "f1"
+	}, {
+		"flightname": "Flight 6E 236",
+		"dtime": "07:20",
+		"atime": "10:30",
+		"nonstop": 1,
+		"stoppingplaces": [{
+			"Code": "COK",
+			"Full name": "Kochi, IN - Kochi Airport (MAA)"
+		}],
+		"cost": "2500 INR",
+		"fid" : "f2"
+	}, {
+		"flightname": "Flight 6E 237",
+		"dtime": "09:20",
+		"atime": "11:30",
+		"nonstop": 0,
+		"stoppingplaces": null,
+		"cost": "7500 INR",
+		"fid" : "f3"
+	}, {
+		"flightname": "Flight 6E 239",
+		"dtime": "10:20",
+		"atime": "12:30",
+		"nonstop": 0,
+		"stoppingplaces": null,
+		"cost": "1500 INR" ,
+		"fid" : "f4"
+	}, {
+		"flightname": "Flight 6E 235",
+		"dtime": "06:20",
+		"atime": "08:30",
+		"nonstop": 0,
+		"stoppingplaces": null,
+		"cost": "1500 INR" ,
+		"fid" : "f5"
+	}]
+
+}]
+

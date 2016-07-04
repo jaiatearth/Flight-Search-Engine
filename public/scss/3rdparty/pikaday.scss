@@ -1,0 +1,230 @@
+$primary-color-pikaday: $bg-primary-color;
+
+.pika {
+    &-single {
+        display: block;
+        position: relative;
+        right: 0;
+        left: 0;
+        font-family: 'Lato','Helvetica Neue', Helvetica, Arial, sans-serif;
+        color: #333333;
+        zoom: 1;
+        background: #FFFFFF;
+        border: 1px solid #CCCCCC;
+        border-bottom-color: #BBBBBB;
+        z-index: 9999;
+        width: 35%;
+
+        &.is-hidden {
+            display: none;
+        }
+
+        &.is-bound {
+            position: absolute;
+            right: 0;
+            left: 0;
+            box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .5);
+        }
+
+        &:before, &:after {
+            content: ' ';
+            display: table;
+        }
+
+        &:after {
+            clear: both;
+        }
+    }
+
+    &-lendar {
+        //float: left;
+        //width: 95%;
+        //margin: 8px;
+    }
+
+    &-title {
+        position: relative;
+        text-align: center;
+        padding: 10px 0px;
+
+        select {
+            position: absolute;
+            top: 5px;
+            left: 0;
+            margin: 0;
+            cursor: pointer;
+            filter: alpha(opacity=0);
+            opacity: 0;
+            z-index: 9998;
+        }
+    }
+
+    &-label {
+        display: inline-block;
+        position: relative;
+        margin: 0;
+        overflow: hidden;
+        padding: 5px 3px;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 20px;
+        background-color: #FFFFFF;
+        z-index: 9999;
+    }
+
+    &-prev,
+    &-next {
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 20px;
+        height: 30px;
+        overflow: hidden;
+        padding: 0;
+        text-indent: 20px;
+        white-space: nowrap;
+        cursor: pointer;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 75% 75%;
+        border: 0;
+        outline: none;
+        opacity: .5;
+
+        &.is-disabled,
+        &.is-disabled {
+            cursor: default;
+            opacity: .2;
+        }
+    }
+
+    &-prev:hover,
+    &-next:hover {
+        opacity: 1;
+    }
+
+    &-select {
+        display: inline-block;
+    }
+
+    &-table {
+        width: 100%;
+        border-spacing: 0;
+        border-collapse: collapse;
+        border: 0;
+
+        th,
+        td {
+            width: 14.285714285714286%;
+            padding: 0;
+        }
+
+        th {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 25px;
+            color: $special-label-color;
+            text-align: center;
+            font-family: "Lato";
+        }
+
+        abbr {
+            cursor: help;
+            border-bottom: 0;
+        }
+
+    }
+
+    &-button {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 20px 5px 20px 5px;
+        font-size: 13px;
+        font-family: "Lato";
+        font-weight: 300;
+        line-height: 15px;
+        color: #666666;
+        text-align: center;
+        cursor: pointer;
+        background: #FFFFFF;
+        border: 1px solid rgba(204, 204, 204, .25);
+        border-radius: 0;
+        outline: 0;
+        -moz-appearance:none; /* Firefox */
+        -webkit-appearance:none; /* Safari and Chrome */
+        appearance:none;
+
+        &:hover {
+            color: #FFFFFF;
+            background: $bg-secondary-color;
+            //border-radius: 3px;
+            box-shadow: none;
+        }
+
+    }
+
+    &-button
+    &-week {
+        font-size: 12px;
+        color: #999999;
+    }
+
+}
+
+.pika-prev,
+.is-rtl .pika-next {
+    float: left;
+    left: 0;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAUklEQVR42u3VMQoAIBADQf8Pgj+OD9hG2CtONJB2ymQkKe0HbwAP0xucDiQWARITIDEBEnMgMQ8S8+AqBIl6kKgHiXqQqAeJepBo/z38J/U0uAHlaBkBl9I4GwAAAABJRU5ErkJggg==');
+}
+
+.pika-next,
+.is-rtl .pika-prev {
+    float: right;
+    right: 0;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAeCAYAAAAsEj5rAAAAU0lEQVR42u3VOwoAMAgE0dwfAnNjU26bYkBCFGwfiL9VVWoO+BJ4Gf3gtsEKKoFBNTCoCAYVwaAiGNQGMUHMkjGbgjk2mIONuXo0nC8XnCf1JXgArVIZAQh5TKYAAAAASUVORK5CYII=');
+}
+
+.is-today .pika-button {
+    font-weight: bold;
+}
+
+.is-selected .pika-button {
+    font-weight: $bold;
+    color: $bg-secondary-color;
+    background: $primary-color-pikaday;
+    //border-radius: 3px;
+    box-shadow: inset 0 1px 3px $primary-color-pikaday;
+    font-family: "Lato";
+}
+
+.is-disabled .pika-button {
+    color: #999999;
+    pointer-events: none;
+    cursor: default;
+    background: #EEEEEE;
+    opacity: .3;
+}
+
+.is-inrange .pika-button {
+    color: #FFFFFF;
+    //border-color: $primary-color-pikaday;
+    background: $primary-color-pikaday;
+    box-shadow: none;
+}
+
+.is-startrange .pika-button {
+    color: #FFFFFF;
+    background: $primary-color-pikaday;
+    //border-radius: 3px;
+    box-shadow: none;
+}
+
+.is-endrange .pika-button {
+    color: #FFFFFF;
+    background: $primary-color-pikaday;
+    //border-radius: 3px;
+    box-shadow: none;
+}
