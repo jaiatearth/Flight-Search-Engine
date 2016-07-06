@@ -1,46 +1,17 @@
 .searchresult{
     width: 80%;
     margin: 0 auto;
-    &__priceslider{
-        width: 300px;
-        margin: 0 auto;
-        margin-top: 40px;
-        .noUi-connect{
-            background: #F5EABC;
-            .noUi-handle.noUi-handle-lower{
-                border: none;
-                background:none;
-                border-radius: none;
-                box-shadow: none;
-                background-image: url(/images/flight.png);
-                background-repeat: no-repeat;
-                height: 33px;
-                transform: rotate(180deg);
-                margin-top: -4px;
-            }
-            .noUi-handle:before,  .noUi-handle:after {
-                background: none;
-            }
-        }
-        .noUi-background{
-            .noUi-handle.noUi-handle-upper{
-                border: none;
-                background:none;
-                border-radius: none;
-                box-shadow: none;
-                background-image: url(/images/flight.png);
-                background-repeat: no-repeat;
-                height: 33px;
-                margin-top: -4px;
-            }
-            .noUi-handle:before,  .noUi-handle:after {
-                background: none;
-            }
-        }
-    }
     &__table{
+        .noResult{
+            margin: 0 auto;
+            width: 80%;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 300;
+            color: $price-color;
+        }
         width: 100%;
-        margin-top: 80px;
+        margin-top: 30px;
 
         &-detailsrow{
             table{

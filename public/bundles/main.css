@@ -688,44 +688,17 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-.searchresult__priceslider {
-  width: 300px;
-  margin: 0 auto;
-  margin-top: 40px;
-}
-.searchresult__priceslider .noUi-connect {
-  background: #F5EABC;
-}
-.searchresult__priceslider .noUi-connect .noUi-handle.noUi-handle-lower {
-  border: none;
-  background: none;
-  border-radius: none;
-  box-shadow: none;
-  background-image: url(/images/flight.png);
-  background-repeat: no-repeat;
-  height: 33px;
-  transform: rotate(180deg);
-  margin-top: -4px;
-}
-.searchresult__priceslider .noUi-connect .noUi-handle:before, .searchresult__priceslider .noUi-connect .noUi-handle:after {
-  background: none;
-}
-.searchresult__priceslider .noUi-background .noUi-handle.noUi-handle-upper {
-  border: none;
-  background: none;
-  border-radius: none;
-  box-shadow: none;
-  background-image: url(/images/flight.png);
-  background-repeat: no-repeat;
-  height: 33px;
-  margin-top: -4px;
-}
-.searchresult__priceslider .noUi-background .noUi-handle:before, .searchresult__priceslider .noUi-background .noUi-handle:after {
-  background: none;
-}
 .searchresult__table {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 30px;
+}
+.searchresult__table .noResult {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  color: #FF4A60;
 }
 .searchresult__table-detailsrow table {
   border: 1px solid #FFDC31;
@@ -970,7 +943,16 @@ body {
     width: 100%;
   }
   .searchresult__table {
-    margin-top: 50px;
+    margin-top: 0px;
+  }
+  .searchresult__table tr td:first-child {
+    width: 74%;
+  }
+  .searchresult__table tr td:nth-child(2) {
+    display: none;
+  }
+  .searchresult__table tr td:last-child {
+    width: 25%;
   }
   .searchresult__table-detailsrow table {
     border: none;
@@ -982,7 +964,10 @@ body {
     font-size: 14px;
   }
   .searchresult__table-detailsrow-timedetails-dtime, .searchresult__table-detailsrow-timedetails-atime {
-    font-size: 13px;
+    font-size: 11px;
+  }
+  .searchresult__table-detailsrow-timedetails-dtime, .searchresult__table-detailsrow-timedetails-atime, .searchresult__table-detailsrow-timedetails-nonstop {
+    margin-right: 2px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -1086,7 +1071,16 @@ body {
     width: 100%;
   }
   .searchresult__table {
-    margin-top: 50px;
+    margin-top: 0px;
+  }
+  .searchresult__table tr td:first-child {
+    width: 74%;
+  }
+  .searchresult__table tr td:nth-child(2) {
+    display: none;
+  }
+  .searchresult__table tr td:last-child {
+    width: 25%;
   }
   .searchresult__table-detailsrow table {
     border: none;
@@ -1098,7 +1092,10 @@ body {
     font-size: 14px;
   }
   .searchresult__table-detailsrow-timedetails-dtime, .searchresult__table-detailsrow-timedetails-atime {
-    font-size: 13px;
+    font-size: 11px;
+  }
+  .searchresult__table-detailsrow-timedetails-dtime, .searchresult__table-detailsrow-timedetails-atime, .searchresult__table-detailsrow-timedetails-nonstop {
+    margin-right: 2px;
   }
 }
 @media only screen and (min-device-width: 701px) and (max-device-width: 1250px) {
@@ -1208,7 +1205,7 @@ body {
     width: 100%;
   }
   .searchresult__table {
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .searchresult__table-detailsrow table {
     border: none;
@@ -1217,7 +1214,10 @@ body {
     font-size: 16px;
   }
   .searchresult__table-detailsrow-timedetails-dtime, .searchresult__table-detailsrow-timedetails-atime {
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .searchresult__table-detailsrow-pricedetails-price {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 1250px) {
@@ -1327,7 +1327,7 @@ body {
     width: 100%;
   }
   .searchresult__table {
-    margin-top: 50px;
+    margin-top: 0px;
   }
   .searchresult__table-detailsrow table {
     border: none;
@@ -1336,6 +1336,9 @@ body {
     font-size: 16px;
   }
   .searchresult__table-detailsrow-timedetails-dtime, .searchresult__table-detailsrow-timedetails-atime {
-    font-size: 14px;
+    font-size: 12px;
+  }
+  .searchresult__table-detailsrow-pricedetails-price {
+    font-size: 16px;
   }
 }
